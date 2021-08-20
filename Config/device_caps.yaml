@@ -1,0 +1,11 @@
+platformName: Android
+# 模拟器
+platformVersion: '9'
+deviceName: mi11
+noReset: True
+unicodeKeyBoard: True
+resetKeyboard: True
+appPackage: com.jm.android.jumei
+appActivity: com.jm.android.jumei.home.activity.StartActivity
+ip: 127.0.0.1
+port: 4723
