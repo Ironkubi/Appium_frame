@@ -35,7 +35,7 @@ import pytest
 
 if __name__ == "__main__":
     # pytest.main()
-    pytest.main(["./TestCase/test_loginCase.py"])
+    pytest.main(["./TestCase/Android/test_loginCase.py"])
     # pytest.main(["./test_cases/test_CustCircle.py"])
     # pytest.main(["./test_cases/test_Breakbulk_Express_Contract.py"])
     # send_report()

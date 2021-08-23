@@ -82,7 +82,7 @@ allure.api.addTab('packages', {
             testResultTab: testResultTab,
             tabName: 'tab.packages.name',
             baseUrl: 'packages',
-            url: 'data/packages.json'
+            url: 'Data/packages.json'
         });
     })
 });

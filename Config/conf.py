@@ -9,13 +9,13 @@ from selenium.webdriver.common.by import By
 from datetime import datetime
 # from utils.times import dt_strftime
 
+
 # 获取当前目录的父目录的绝对路径
-# 也就是整个工程的根目录
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 CONF_PATH = os.path.join(ROOT_DIR, 'Config', 'location.ini')
 
-DATA_Path = os.path.join(ROOT_DIR,'data','tcData.xlsx')
+DATA_Path = os.path.join(ROOT_DIR,'Data','tcData.xlsx')
 
 
 # 页面元素目录
@@ -37,7 +37,7 @@ today = time.strftime("%Y-%m-%d", time.localtime())
 HTML_NAME = 'testReport{}.html'.format(current_time )
 
 # 测试报告和日志的目录
-report_log_path = os.path.join(ROOT_DIR, "logs")
+report_log_path = os.path.join(ROOT_DIR, "Logs")
 
 if os.path.exists(report_log_path):
     pass
